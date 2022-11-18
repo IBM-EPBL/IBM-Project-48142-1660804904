@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>WEB PHISHING DETECTION</title>
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <style>
+  body
+        {
+  font-family: Arial, Helvetica, sans-serif;
+        }
+
+.navbar {
+  overflow: hidden;
+  background-color:#87CEFA;
+}
+
+.navbar a {
+  float: right;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: right;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color:#B0C4DE;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}  
+
+
+.registerbtn 
+        {
+  background-color: #0000CD;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+       }
+
+.registerbtn:hover 
+        {
+  opacity: 1;
+         }
+        
+</style>
+
+        
+        
+        
+</head>
+<body>
+    
+    <div class="navbar">
+  <a href="#"><B>Home</B></a>
+  <a href="#"><B>News</B></a>
+  <div class="dropdown">
+    <button class="dropbtn"><B>Dashboard</B>
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="/register" >REGISTER</a>
+      <a href="#">CHANGE PASSWORD</a>
+      <a href="/login">LOG IN</a>
+    </div>
+  </div> 
+</div>
+
+
+<img src= "Untitled Folder/static/image/bg.png"  >
+<div class="w3-container w3-blue">
+  <h1><b>WEB PHISHING DETECTION</b></h1> 
+   
+</div>
+
+<div class="w3-row-padding">
+  <div class="w3-third">
+    <h2><b><u>What is Phishing???</u></b></h2>
+    
+      <p>  Phishing is a form of fraud in which the attacker 
+      tries to learn sensitive information such as login credentials
+      or account information by sending as a reputable entity or person 
+      in email or other communication channels.
+      Typically a victim receives a message that appears to have been 
+     sent by a known contact or organization. The message contains malicious 
+    software targeting the user’s computer or has links to direct victims to 
+     malicious websites in order to trick them into divulging personal 
+    and financial information, such as passwords, account IDs or credit 
+    card details.</p>
+  </div>
+
+  <div class="w3-third">
+    <h2><b><u>Reason??</u></b></h2>
+    <p>The main reason is the lack of awareness of users. But security 
+       defenders must take precautions to prevent users from confronting 
+      these harmful sites. Preventing these huge costs can start with making 
+       people conscious in addition to building strong security mechanisms 
+     which are able to detect and prevent phishing domains from reaching the user.</p>
+  </div>
+
+  <div class="w3-third">
+    <h2><b><u>Our Website:)</u></b></h2>
+    <p>The user must first Enter the Website's URL.Then 
+      Using Machine Learning Algorithms,we Catagorize whether the desired website is Legal or Illegal.</p>
+  </div>
+</div>
+
+<div class="w3-container w3-blue">
+    <h1><b>So,Check Your Website Here!</b></h1> 
+    <p>understanding whether the website is a valid one or not is important and plays a vital role
+       in the securing the data.So to keep your Data safe,check the website's URL.
+  <center>    
+  <form action= '/website'>
+  <button type="submit"  class="registerbtn" >Check Your Website</button>
+  </form>
+  <center>     
+   </div>
+  
+  
+  </body>
+  </html>
